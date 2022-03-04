@@ -32,6 +32,7 @@ class BackgroundImage extends React.Component {
         super(props);
         this.state = {
             time: new Date().getHours(),
+            background: this.backgroundImagePage(),
                 0: im0,
                 1: im1,
                 2: im2,
@@ -59,33 +60,35 @@ class BackgroundImage extends React.Component {
         };
     }
 
+    backgroundImagePage(){
+
+        for (let key in this.state){
+            if (key == this.state.time) {
+           return document.body.style.backgroundImage = `url(${this.state[key]})`;
+        }else{
+             document.body.style.backgroundColor = 'black';
+        }
+    }
+    }
+
     componentDidMount() {
         this.intervalID = setInterval(() => this.tick(), 1000);
-
-            for (let key in this.state){
-                if (key == this.state.time) {
-                    console.log(key);
-                document.body.style.backgroundImage = `url(${this.state[key]})`;
-                console.log(`url(${this.state[key]})`);
-            }else{
-                document.body.style.backgroundColor = 'black';
-            }
-        }
+        this.backgroundImagePage();
       }
+
       componentWillUnmount() {
         clearInterval(this.intervalID);
       }
       tick() {
         this.setState({
-          time: new Date().getHours()
+          time: new Date().getHours(),
+          background: this.backgroundImagePage()
         });
       }
 
     render() {
         return (
-            <h2>
-                Время для фона: {this.state.time}
-            </h2>
+                <></>
         );
     }
 }
