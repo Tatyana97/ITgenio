@@ -11,12 +11,12 @@ class Quote extends React.Component {
         };
       }
 
-      componentDidMount(){
-        fetch('https://api.forismatic.com/api/1.0/')
-        .then(response => console.log(response.json())
-        )
-        .then(data => console.log(data));
-      }
+      // componentDidMount(){
+      //   fetch('https://api.forismatic.com/api/1.0/')
+      //   .then(response => console.log(response.json())
+      //   )
+      //   .then(data => console.log(data));
+      // }
 
 
     render() {
