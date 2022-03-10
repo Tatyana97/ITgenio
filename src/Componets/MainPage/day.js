@@ -26,6 +26,7 @@ class Day extends React.Component {
     })
   }
   componentDidMount() {
+    // localStorage.setItem('date', JSON.stringify(this.state.date));
     this.intervalID = setInterval(() => this.getDate(), 1000);
   }
 
