@@ -5,28 +5,21 @@ class Quote extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          date: new Date().getDate(),
           quote: '',
           author: ''
         };
       }
     
-      // getNewDate(){
-      //   this.setState({
-      //     date: new Date().getDate(),
-      //   })
-      // }
       
       componentDidMount() {
-        // this.intervalID = setInterval(() => this.getDate(), 1000);
-        this.fetchAdvice();
+        this.fetchAdvice()
+        this.intervalID = setInterval(() => this.fetchAdvice(), (600000*6));
       }
 
 
-
-      // componentWillUnmount() {
-      //   clearInterval(this.intervalID);
-      // }
+      componentWillUnmount() {
+        clearInterval(this.intervalID);
+      }
       
 
       async fetchAdvice() {
@@ -35,15 +28,14 @@ class Quote extends React.Component {
          .then(data => {
           let num = Math.floor(Math.random() * data.length);
           // let local = localStorage.getItem('date');
-        console.log(data)
-         console.log(num)
+        // console.log(data)
+        //  console.log(num)
 
-         
-            this.setState({
+              this.setState({
               author: data[num].author,
               quote: data[num].quoteText
             })
-          }
+            }
          )}
 
 
