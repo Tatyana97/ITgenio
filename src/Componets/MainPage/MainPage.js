@@ -7,6 +7,8 @@ import Weather from './weather';
 import Day from './day';
 import Clock from './clock';
 import Quote from './Quote';
+import BackgroundImage from "./backgroundImage"
+
 
 const API = 'c8f5eb93ed979b6bec735e0bf7355bdc';
 
@@ -80,6 +82,7 @@ class MainPage extends React.Component {
 			<div className="main">	
 			  <div className="container">
 			  <div className='cow-sm-7'> 
+			  <BackgroundImage/>
 			  <Day />
 			  <Clock/>
 			  </div>
