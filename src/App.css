@@ -2,8 +2,8 @@
 
 body {
   font-family: "Open Sans", serif;
-  background: rgb(90,0,180);
-background: linear-gradient(90deg, rgb(44, 1, 87) 0%, rgba(13,17,64,1) 35%, rgba(129,94,135,1) 100%);
+  /* background: rgb(90,0,180);
+background: linear-gradient(90deg, rgb(44, 1, 87) 0%, rgba(13,17,64,1) 35%, rgba(129,94,135,1) 100%); */
 }
 
 div {
