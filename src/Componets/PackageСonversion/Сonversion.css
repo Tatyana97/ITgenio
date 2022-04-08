@@ -1,0 +1,79 @@
+.allTablws {
+    display: inline-flex;
+    margin-top: 2.4em;
+    margin-left: 1em;
+    flex-direction: column;
+}
+
+.tables{
+    margin: 1.5em;
+    display: inline-block;
+    width: auto;
+    /* background: rgb(183 188 188 / 50%); */
+
+    background: linear-gradient(111deg, #b7bcbc, #12173f);
+    background-size: 400% 400%;
+
+
+    -webkit-animation: Grays 30s ease infinite;
+    -moz-animation: Grays 30s ease infinite;
+    animation: Grays 30s ease infinite;
+}
+
+@-webkit-keyframes Grays {
+    0%{background-position:0% 71%}
+    50%{background-position:100% 30%}
+    100%{background-position:0% 71%}
+}
+@-moz-keyframes Grays {
+    0%{background-position:0% 71%}
+    50%{background-position:100% 30%}
+    100%{background-position:0% 71%}
+}
+@keyframes Grays {
+    0%{background-position:0% 71%}
+    50%{background-position:100% 30%}
+    100%{background-position:0% 71%}
+}
+
+.tableStyle{
+    display: flex;
+}
+.tableStyle p{
+    border: 1px solid black;
+    width: 8em;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.highlight{    
+    background: linear-gradient(to right, #525252, #3d72b4);
+}
+
+.highlightIGF60{    
+    background: linear-gradient(to right, #824227, #8672b8);
+}
+
+.highlightIF {
+    background: linear-gradient(to right, #448427, #367288);
+}
+
+.highlightGF {
+    background: linear-gradient(to right, #f5e87f, #367288);
+}
+
+
+.tableStyle input{
+    font-weight: bold;
+    border: 1px solid black;
+    width: 8em;
+    text-align: center;
+    color: white;
+    background: radial-gradient(circle, rgba(57,85,105,1) 0%, rgba(58,58,89,1) 44%, rgba(46,46,46,0.989233193277311) 100%);
+}
+
+.tableStyle input:focus {
+    outline:none;
+  }
