@@ -7,8 +7,24 @@ class Day extends React.Component {
     super(props);
     this.state = {
       date: new Date().getDate(),
-      mounth: this.thisMounth()
+      mounth: this.thisMounth(),
+      week: this.thisWeek(),
     }
+  }
+
+  thisWeek(){
+    let days = [
+      'Воскресенье',
+      'Понедельник',
+      'Вторник',
+      'Среда',
+      'Четверг',
+      'Пятница',
+      'Суббота'
+    ];
+    let d = new Date();
+    let n = d.getDay();
+    return days[n]
   }
 
   thisMounth(){
@@ -22,10 +38,12 @@ class Day extends React.Component {
   getDate(){
     this.setState({
       date: new Date().getDate(),
-      mounth: this.thisMounth()
+      mounth: this.thisMounth(),
+      week: this.thisWeek(),
     })
   }
   componentDidMount() {
+    // localStorage.setItem('date', JSON.stringify(this.state.date));
     this.intervalID = setInterval(() => this.getDate(), 1000);
   }
 
@@ -35,7 +53,7 @@ class Day extends React.Component {
   
   render(){
     return(
-       <h1>Сегодня {this.state.date} {this.state.mounth}</h1>
+       <h1>Сегодня {this.state.date} {this.state.mounth}, {this.state.week}</h1>
     )
   }
 }
