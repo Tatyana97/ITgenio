@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+.cow-sm-7 h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+     
+}
