@@ -80,8 +80,8 @@ class MainPage extends React.Component {
 			 city: undefined
 			})
 			console.log(err);
+			console.log("fdfd");
 		}
-	
 	  }
 
 	
