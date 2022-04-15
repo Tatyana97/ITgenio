@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Weather = props => (
     <div className="infoWeath">
     { props.city &&
