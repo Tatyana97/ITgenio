@@ -60,8 +60,9 @@ class MainPage extends React.Component {
 				});
 			  }	
 		} catch (err) {
+			let errorText = "Не найден город";
 			this.setState({
-			 error: "Не найден город",
+			 error: errorText,
 			 time: null,
 			 country: null,
 			 temp: null,

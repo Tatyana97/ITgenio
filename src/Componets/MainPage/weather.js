@@ -10,7 +10,6 @@ const Weather = props => (
         <div>Время: {props.time}</div>
       </div>
     }
-    <p className="error">{ props.error }</p>
     </div>
   );
   
