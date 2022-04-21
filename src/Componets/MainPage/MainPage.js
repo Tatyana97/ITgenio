@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
-import '../../App.css';
-import './Main.css';
 import React from 'react';
+
 import Info from './info';
 import Form from './form';
 import Weather from './weather';
@@ -10,18 +9,18 @@ import Clock from './clock';
 import Quote from './Quote';
 import BackgroundImage from "./backgroundImage";
 import {Error} from './shared/error'
-
-
-const API = 'c8f5eb93ed979b6bec735e0bf7355bdc';
+import '../../App.css';
+import './Main.css';
+import {API} from './service/index'
 
 class MainPage extends React.Component {
 
 	state = {
-		temp: undefined,
-		city: undefined,
-		country: undefined,
-		time: undefined,
-		error: undefined
+		temp: null,
+		city: null,
+		country: null,
+		time: null,
+		error: null
 	  }
 
 	  gettingWeather = async (e) => {
@@ -35,7 +34,6 @@ class MainPage extends React.Component {
 	
 	  
 				let sunset = data.sys.sunset;
-				console.log(sunset)
 				let datess = new Date(sunset*1000);
 				let sunset_date = datess.getHours() + ":" + datess.getMinutes() + ":" + datess.getSeconds();
 	  
@@ -51,7 +49,6 @@ class MainPage extends React.Component {
 				const minutes = "0" + times.getMinutes();
 				const seconds = "0" + times.getSeconds();
 				const time = hours.substr(-2) + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);	  
-			  //   console.log(time);
 	  
 	  
 				this.setState({
@@ -59,29 +56,19 @@ class MainPage extends React.Component {
 				  city: data.name,
 				  country: data.sys.country,
 				  time: time,
-				  error: undefined
+				  error: null
 				});
-
-			//   } else {
-			// 	this.setState({
-			// 	  temp: undefined,
-			// 	  city: undefined,
-			// 	  country: undefined,
-			// 	  time:undefined,
-			// 	  error: "Введите название города"
-			// 	});
 			  }	
 		} catch (err) {
+			let errorText = "Не найден город";
 			this.setState({
-			 error: "Не найден город",
-			 time:undefined,
-			 country: undefined,
-			 temp: undefined,
-			 city: undefined
+			 error: errorText,
+			 time: null,
+			 country: null,
+			 temp: null,
+			 city: null
 			})
-			console.log(err);
 		}
-	
 	  }
 
 	
@@ -107,7 +94,6 @@ class MainPage extends React.Component {
 					  city={this.state.city}
 					  country={this.state.country}
 					  time = {this.state.time}
-					//   error={this.state.error}
 					/>
 				  </div>
 				</div>

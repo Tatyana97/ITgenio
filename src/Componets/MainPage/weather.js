@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Weather = props => (
     <div className="infoWeath">
     { props.city &&
@@ -8,7 +9,6 @@ const Weather = props => (
         <div>Время: {props.time}</div>
       </div>
     }
-    <p className="error">{ props.error }</p>
     </div>
   );
   

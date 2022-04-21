@@ -1,9 +1,10 @@
 import React from 'react';
 
+import './error.css'
+
 
 export const Error = props =>(
     <div>
-        <p>{props.err}</p>
-        {/* <p>Не найден город</p> */}
+        <p className='error'>{props.err}</p>
     </div>
 )
