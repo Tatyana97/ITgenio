@@ -1,15 +1,16 @@
 .error{
     -webkit-animation: blink1 3s linear infinite;
-    animation: blink1 3s linear infinite;
+    animation: blink1 3s cubic-bezier(1, 0.26, 1, 1) infinite;
+    font-weight: bolder;
 }
 
   @-webkit-keyframes blink1 {
-    0% { color: rgba(34, 34, 34, 1); }
-    50% { color: rgba(168, 30, 30, 0); }
-    100% { color: rgba(34, 34, 34, 1); }
+    0% { color: rgb(194, 155, 155); }
+    50% { color: rgba(216, 131, 131, 0.979); }
+    100% { color: rgb(218, 22, 22); }
   }
   @keyframes blink1 {
-    0% { color: rgba(34, 34, 34, 1); }
-    50% { color: rgba(34, 34, 34, 0); }
-    100% { color: rgba(34, 34, 34, 1); }
+    0% { color: rgb(194, 155, 155); }
+    50% { color: rgba(216, 131, 131, 0.979); }
+    100% { color: rgb(218, 22, 22); }
   }

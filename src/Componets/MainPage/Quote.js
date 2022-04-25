@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './quote.css'
 
 class Quote extends React.Component {
     constructor(props) {
@@ -27,9 +28,6 @@ class Quote extends React.Component {
         .then (response => response.json())
          .then(data => {
           let num = Math.floor(Math.random() * data.length);
-          // let local = localStorage.getItem('date');
-        // console.log(data)
-        //  console.log(num)
 
               this.setState({
               author: data[num].author,
@@ -41,9 +39,14 @@ class Quote extends React.Component {
 
       render() {
         return (
-            <div>
-              <h2>{this.state.quote}</h2>
-               <h3>{this.state.author}</h3>
+            <div className="blockquote-5">
+              <div>
+                <p className='itigenik'></p>
+              </div>
+              <div>
+                 <h2>{this.state.quote}</h2>
+                 <h3>{this.state.author}</h3>
+              </div>
             </div>
         );
       }
