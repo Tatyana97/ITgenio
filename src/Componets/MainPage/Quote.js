@@ -27,9 +27,6 @@ class Quote extends React.Component {
         .then (response => response.json())
          .then(data => {
           let num = Math.floor(Math.random() * data.length);
-          // let local = localStorage.getItem('date');
-        // console.log(data)
-        //  console.log(num)
 
               this.setState({
               author: data[num].author,
