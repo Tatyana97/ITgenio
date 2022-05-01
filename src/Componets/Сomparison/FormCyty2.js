@@ -2,9 +2,9 @@ import React from 'react';
 
 
 const FormCyty2 = props => (
-  <div>
-        <form onSubmit={props.gettingCitySecond}>
-         <p> И: 
+  <div className='formCity_block'>
+        <form onSubmit={props.getCitySecond}>
+         <p className='formCity_style'> И: 
          <input type="text" name="city" placeholder="Город"/>
          </p>
        </form>

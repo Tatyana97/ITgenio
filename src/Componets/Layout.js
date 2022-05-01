@@ -12,7 +12,7 @@ const Layout = () => {
             <nav>
 				<NavLink to="/" className={setActive}>Home</NavLink>
 				<NavLink to="/conversion" className={setActive}>Сonversion </NavLink>
-                <NavLink to="/compare" className={setActive}>Сomparison </NavLink>
+                <NavLink to="/compare" className={setActive}>Сompare</NavLink>
 			</nav>
         </header>   
 
