@@ -43,7 +43,6 @@ class FormCompare extends React.Component {
 
 
 			componentDidMount() {
-				// console.log('fdfdf');
 				if (this.state.oneCity != null) {
 					console.log('fdfdf');
 					setInterval(() => this.tick(), 1000)

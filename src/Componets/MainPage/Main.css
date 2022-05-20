@@ -19,3 +19,12 @@
     color: #a9e1e1;
     font-weight: bold;
 }
+.row-sm-7.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formTown input[type="text"]{
+    margin: 0;
+}

@@ -1,13 +1,9 @@
 .compare h1 {
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Libre Bodoni', serif;
     font-weight: bold;
     font-size: 2em;
-}
-
-.compare h2 {
-    font-family: 'Sansita Swashed', cursive;
-    font-weight: bold;
-    font-size: 2em;
+    padding-top: 1px;
+    color: #e5fff4;
 }
 
 .form {
@@ -23,17 +19,18 @@
 
 input[type="text"] {
     margin: 0.3em;
+    box-shadow: 0px 1px 8px 0px rgb(0 0 0 / 78%);
 }
 
 .formCity_style { 
     background: rgba(30, 127, 1, 0);   
     font-weight: bold;
+    font-size: 1.1em;
 }
 
-p.form_city_time {
-    background: linear-gradient(to right, #525252, #3d72b4);
-    box-shadow: 0px 2px 15px 0px rgb(0 0 0 / 88%);
-    padding: 12px;
+.form_city p {
+    border-bottom: groove;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 20px;
+    margin: 2px;
 }
