@@ -49,8 +49,9 @@ class MainPage extends React.Component {
 				const minutes = "0" + times.getMinutes();
 				const seconds = "0" + times.getSeconds();
 				const time = hours.substr(-2) + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);	  
-	  
-	  
+				// let timerId = setInterval(() => time, 1000);
+					 
+
 				this.setState({
 				  temp: data.main.temp,
 				  city: data.name,

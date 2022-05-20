@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Sansita+Swashed:wght@600;795;900&display=swap');
+
+.blockquote-5 {
+    font-family: 'Sansita Swashed', cursive;
+    padding: 16px 24px 5px;
+    margin: 16px 16px 26px 16px;
+    font-size: 16px;
+    background: rgb(62 77 82 / 20%);
+    border-top: 2px solid #648099;
+    border-bottom: 2px solid #648099;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.blockquote-5 h3 {
+    color: #b3d0e9;
+    font-size: 15px;
+    padding-top: 20px;
+    display: block;
+    font-weight: bolder;
+}
+.blockquote-5 h2 {
+    color: #e5fff4;
+}
+.itigenik{
+    background: url('./styles/itgenik-02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 7em;
+    height: 7em;
+}
+
+@media (max-width: 770px) { 
+    .blockquote-5 {
+        position: relative; 
+        margin-top: 2em;
+    }
+}
+

@@ -1,0 +1,21 @@
+.row {
+    text-align: center;
+}
+
+.infoWeath p{
+    margin: 0;
+}
+
+.bott{
+    color: #FFFFFF;
+    font: bold 16px arial;
+    height: 32px;
+    line-height: 26px;
+    text-align: center;
+    background: linear-gradient(to bottom, #209DCA, #0F84AF) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
+    transition: all 0.5s linear 0s;
+}
+
+.bott:hover, .bott:focus{
+    background-position: 0 -102%;
+}

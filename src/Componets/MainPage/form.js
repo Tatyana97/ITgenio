@@ -1,10 +1,11 @@
 import React from 'react';
 
+import './styles/form.css'
 
 const Form = props => (
     <form onSubmit={props.weatherMethod}>
       <input type="text" name="city" placeholder="Город"/>
-      <button>Получить информацию</button>
+      <button className='bott'>Получить информацию</button>
     </form>
   )
 
