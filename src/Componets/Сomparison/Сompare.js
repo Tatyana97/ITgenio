@@ -1,8 +1,8 @@
 import React from 'react';
 
-import FormCompare from './formCompare'
+import {FormCompare} from './index'
 
-class Сompare extends React.Component {
+export class Сompare extends React.Component {
     constructor(props) {
         super(props);
       }
@@ -15,5 +15,3 @@ class Сompare extends React.Component {
                 )
             }
 }
-
-export default Сompare

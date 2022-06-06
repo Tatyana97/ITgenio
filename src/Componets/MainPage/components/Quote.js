@@ -2,7 +2,7 @@ import React from 'react';
 
 import './quote.css'
 
-class Quote extends React.Component {
+export class Quote extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -52,5 +52,3 @@ class Quote extends React.Component {
       }
 
 }
-
-export default Quote;

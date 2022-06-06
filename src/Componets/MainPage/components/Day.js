@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Day extends React.Component {
+export class Day extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -55,6 +55,3 @@ class Day extends React.Component {
     )
   }
 }
-
-
-  export default Day

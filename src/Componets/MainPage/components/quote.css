@@ -23,7 +23,7 @@
     color: #e5fff4;
 }
 .itigenik{
-    background: url('./styles/itgenik-02.png');
+    background: url('../styles//itgenik-02.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 7em;

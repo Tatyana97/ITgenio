@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {numbers} from '../../Utility/Number'
+import {numbers} from '../../../Utility/Number'
 
 export const column1 = numbers.map(function(item) {
     let number;

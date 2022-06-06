@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-const FormCyty1 = props => (
+export const FormCyty1 = props => (
   <div className='formCity_block'>
     <form onSubmit={props.cityMethod}>
       <p className='formCity_style'> Между:
@@ -10,5 +9,3 @@ const FormCyty1 = props => (
     </form>
     </div>
   )
-
-export default FormCyty1

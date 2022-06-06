@@ -1,13 +1,10 @@
 import React from 'react';
 
-import FormCyty1 from './FormCyty1'
-import FormCyty2 from './FormCyty2'
-// import {Error} from '../MainPage/shared/error'
-import {getTimeCity} from '../Utility/getTimeCity'
+import {FormCyty1, FormCyty2, TableCity} from '../index';
+import {getTimeCity} from '../../Utility/getTimeCity'
 import './compare.css'
-import TableCity from './Table/TableCity'
 
-class FormCompare extends React.Component {
+export class FormCompare extends React.Component {
     constructor(props) {
         super(props);
 
@@ -109,5 +106,3 @@ class FormCompare extends React.Component {
                 )
             }
 		}
-
-export default FormCompare

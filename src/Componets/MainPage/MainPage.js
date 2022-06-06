@@ -1,19 +1,13 @@
 /* eslint-disable no-undef */
 import React from 'react';
 
-import Info from './info';
-import Form from './form';
-import Weather from './weather';
-import Day from './day';
-import Clock from './clock';
-import Quote from './Quote';
-import BackgroundImage from "./backgroundImage";
+import {Info, Form, Weather, Day, Clock, Quote, BackgroundImage} from './index'
 import {Error} from './shared/error'
 import '../../App.css';
 import './Main.css';
 import {API} from './service/index'
 
-class MainPage extends React.Component {
+export class MainPage extends React.Component {
 
 	state = {
 		temp: null,
@@ -105,5 +99,3 @@ class MainPage extends React.Component {
 		);
 	  }
   }
-
-export default MainPage

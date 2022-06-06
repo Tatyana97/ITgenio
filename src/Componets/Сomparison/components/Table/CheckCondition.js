@@ -1,6 +1,6 @@
 
 
-	export default function checkCondition(number) {
+	export function checkCondition(number) {
 				
 		if (number == 24){
 			number = '00';
