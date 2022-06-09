@@ -5,7 +5,7 @@ import "./Layout.css"
 
 const setActive = ({isActive}) => isActive ? 'active-link' : '';
 
-const Layout = () => {
+export const Layout = () => {
     return (
         <>
         <header>
@@ -23,5 +23,3 @@ const Layout = () => {
         </>
     )
 }
-
-export default Layout

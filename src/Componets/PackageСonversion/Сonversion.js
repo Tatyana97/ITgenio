@@ -2,7 +2,7 @@ import React from 'react';
 import './Сonversion.css'
 
 
-class Сonversion extends React.Component {
+export class Сonversion extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -124,4 +124,3 @@ class Сonversion extends React.Component {
                 )
             }
     }
-export default Сonversion

@@ -1,33 +1,33 @@
 import React from 'react';
 
-import im0 from "../../img/0.jpg";
-import im1 from "../../img/1.jpg";
-import im2 from "../../img/2.jpg";
-import im3 from "../../img/3.jpg";
-import im4 from "../../img/4.jpg";
-import im5 from "../../img/5.jpg";
-import im6 from "../../img/6.jpg";
-import im7 from "../../img/7.jpg";
-import im8 from "../../img/8.jpg";
-import im9 from "../../img/9.jpg";
-import im10 from "../../img/10.jpg";
-import im11 from "../../img/11.jpg";
-import im12 from "../../img/12.jpg";
-import im13 from "../../img/13.jpg";
-import im14 from "../../img/14.jpg";
-import im15 from "../../img/15.jpg";
-import im16 from "../../img/16.jpg";
-import im17 from "../../img/17.jpg";
-import im18 from "../../img/18.jpg";
-import im19 from "../../img/19.jpg";
-import im20 from "../../img/20.jpg";
-import im21 from "../../img/21.jpg";
-import im22 from "../../img/22.jpg";
-import im23 from "../../img/23.jpg";
+import im0 from "../../../img/0.jpg";
+import im1 from "../../../img/1.jpg";
+import im2 from "../../../img/2.jpg";
+import im3 from "../../../img/3.jpg";
+import im4 from "../../../img/4.jpg";
+import im5 from "../../../img/5.jpg";
+import im6 from "../../../img/6.jpg";
+import im7 from "../../../img/7.jpg";
+import im8 from "../../../img/8.jpg";
+import im9 from "../../../img/9.jpg";
+import im10 from "../../../img/10.jpg";
+import im11 from "../../../img/11.jpg";
+import im12 from "../../../img/12.jpg";
+import im13 from "../../../img/13.jpg";
+import im14 from "../../../img/14.jpg";
+import im15 from "../../../img/15.jpg";
+import im16 from "../../../img/16.jpg";
+import im17 from "../../../img/17.jpg";
+import im18 from "../../../img/18.jpg";
+import im19 from "../../../img/19.jpg";
+import im20 from "../../../img/20.jpg";
+import im21 from "../../../img/21.jpg";
+import im22 from "../../../img/22.jpg";
+import im23 from "../../../img/23.jpg";
 
 
 
-class BackgroundImage extends React.Component {
+export class BackgroundImage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -92,5 +92,3 @@ class BackgroundImage extends React.Component {
         );
     }
 }
-
-export default BackgroundImage;

@@ -1,11 +1,10 @@
 import React from 'react';
 
-import {numbers} from '../../Utility/Number'
-import {column1} from './ColumnNumber1'
-import checkCondition from './ColumnNumber2'
+import {numbers} from '../../../Utility/Number'
+import {column1, checkCondition} from '../../index'
 import './TableCityStyle.css'
 
-export default function TableCity(props) {
+export function TableCity(props) {
 	let time1,time2;
 	function difference(city1, city2) {
 		let Stringtime1 = String(city1);

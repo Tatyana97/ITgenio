@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Weather = props => (
+export const Weather = props => (
     <div className="infoWeath">
     { props.city &&
       <div>
@@ -11,5 +11,3 @@ const Weather = props => (
     }
     </div>
   );
-  
-export default Weather;

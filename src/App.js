@@ -2,13 +2,13 @@ import {Routes, Route} from 'react-router-dom';
 import React, { Component }  from 'react';
 
 
-import MainPage from './Componets/MainPage/MainPage'
-import Сonversion from './Componets/PackageСonversion/Сonversion'
-import Сompare from './Componets/Сomparison/Сompare'
+// import MainPage from './Componets/MainPage/MainPage'
+// import Сonversion from './Componets/PackageСonversion/Сonversion'
+// import Сompare from './Componets/Сomparison/components/Сompare'
 
 
+import {Layout, MainPage, Сompare, Сonversion} from './Componets/index'
 
-import Layout from './Componets/Layout'
 class App extends React.Component {
 	  render() {
 		return (

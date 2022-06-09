@@ -1,6 +1,6 @@
 
 
-	export default function checkCondition(number) {
+	export function checkCondition(number) {
 				
 		if (number == 24){
 			number = '00';
@@ -34,7 +34,14 @@
 			number = "12";
 		  } else if(number == 37){
 			number = "13";
+		  } else if(number == 38){
+			number = "14";
+		  } else if(number == 39){
+			number = "15";
+		  } else if(number == 40){
+			number = "16";
 		  } 
+		  
 
 
 		else if (number == "0-1"){
@@ -54,13 +61,21 @@
 		 } else if (number == "0-8"){
 			number = "16";
 		 }else if (number == "0-9"){
-			number = "17";
+			number = "15";
 		 }else if (number == "0-10"){
-			number = "18";
+			number = "14";
 		 }else if (number == "0-11"){
-			number = "19";
+			number = "13";
 		 }else if (number == "0-12"){
-			number = "20";
+			number = "12";
+		 }else if (number == "0-13"){
+			number = "11";
+		 }
+		 else if (number == "0-14"){
+			number = "10";
+		 }
+		 else if (number == "0-15"){
+			number = "09";
 		 }
 		 return number
 	};
