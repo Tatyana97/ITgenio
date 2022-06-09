@@ -5,5 +5,3 @@ export {Form} from './components/Form';
 export {Info} from './components/Info';
 export {Quote} from './components/Quote';
 export {Weather} from './components/Weather';
-
-

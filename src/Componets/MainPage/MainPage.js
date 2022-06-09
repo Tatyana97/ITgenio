@@ -26,11 +26,7 @@ export class MainPage extends React.Component {
 				const api_url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API}&units=metric`);
 				const data = await api_url.json();
 	
-	  
-				let sunset = data.sys.sunset;
-				let datess = new Date(sunset*1000);
-				let sunset_date = datess.getHours() + ":" + datess.getMinutes() + ":" + datess.getSeconds();
-	  
+	    
 				//time
 				let timezone = data.timezone;
 				const dates = new Date()
@@ -42,9 +38,9 @@ export class MainPage extends React.Component {
 				const hours = "0"+ times.getHours();
 				const minutes = "0" + times.getMinutes();
 				const seconds = "0" + times.getSeconds();
+				
 				const time = hours.substr(-2) + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);	  
-				// let timerId = setInterval(() => time, 1000);
-					 
+				
 
 				this.setState({
 				  temp: data.main.temp,

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Sansita+Swashed:wght@600;795;900&display=swap');
 
+.cow-sm-7 {
+    background: rgb(62 77 82 / 20%);
+    border: 1px solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 .cow-sm-7 h1{
     font-family: 'Sansita Swashed', cursive;
@@ -16,7 +22,7 @@
     margin: 0.5em;
     font-size: 3rem;
     text-align: center;
-    color: #a9e1e1;
+    color: #8ec9e4;
     font-weight: bold;
 }
 .row-sm-7.form {
