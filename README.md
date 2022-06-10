@@ -1,6 +1,5 @@
-# Project
 
-My project is in the link: [Tgenio](https://itgenio-app.herokuapp.com/)
+# My project is in the link: [ITgenio](https://itgenio-app.herokuapp.com/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
