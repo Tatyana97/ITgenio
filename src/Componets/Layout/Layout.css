@@ -1,4 +1,4 @@
-.active-link{
+/* .active-link{
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)
 }
   
@@ -49,8 +49,23 @@ nav a {
 
     .btn-grad:hover {
       background-position: right center; /* change the direction of the change here */
-      color: #fff;
-      text-decoration: none;
-    }
-   
-   
+      /* color: #fff;
+      text-decoration: none; */
+    /* } */
+  
+
+header{
+  display: flex;
+  justify-content: center;
+  padding-top: 1.8em;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: white;  
+  padding: 0em 3em;
+}

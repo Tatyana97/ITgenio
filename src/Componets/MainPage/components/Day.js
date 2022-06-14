@@ -51,7 +51,7 @@ export class Day extends React.Component {
   
   render(){
     return(
-       <h1>Сегодня {this.state.date} {this.state.mounth}, {this.state.week}</h1>
+       <h1>{this.state.date} {this.state.mounth}, {this.state.week}</h1>
     )
   }
 }
