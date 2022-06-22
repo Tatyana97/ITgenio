@@ -7,15 +7,67 @@
 }
 
 .bott{
-    color: #FFFFFF;
-    font: bold 16px arial;
-    height: 32px;
-    line-height: 26px;
-    text-align: center;
-    background: linear-gradient(to bottom, #209DCA, #0F84AF) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #387069, #628f91) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
     transition: all 0.5s linear 0s;
+    color: white;
+    height: 2.9em;
+    padding: 0em 1em;
+    position: relative;
+    border-radius: 0 15px 15px 0;
+    border: none;
 }
 
 .bott:hover, .bott:focus{
     background-position: 0 -102%;
+}
+
+
+.formInfa {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.point{
+    display: flex;
+    align-items: center;
+    margin: 1em 2em;
+}
+
+.circle {
+    background: #387069;
+    border: 0.1875em solid #628f91;
+    border-radius: 50%;
+    height: 2.6em;
+    width: 2.6em;
+  }
+  .time{
+    background-image: url('./time.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 5px auto;
+  }
+
+.place {
+    background-image: url('./Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1em;
+    height: 1.5em;
+    margin: 5px auto;
+}
+
+p.townAndTime {
+    margin-left: 0.7em;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+.townAndTimePoint{
+    margin: 0;
+    text-align: left;
+    font-weight: bold;
+    line-height: 17px;
 }

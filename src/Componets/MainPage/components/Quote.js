@@ -39,14 +39,22 @@ export class Quote extends React.Component {
 
       render() {
         return (
-            <div className="blockquote-5">
-              <div>
-                <p className='itigenik'></p>
+            <div className='itigenikQuote'>
+{/* 
+              <div className='itigenikQuote_quote'>
+
+                 <p className='itigenik_title'>МУДРОСТЬ ДНЯ</p>
+              </div> */}
+
+               <div className="blockquote-5">
+               <p className='itigenik'></p>
+                 <div className='itigenik_quote'>
+                 <p className='itigenik_title'>МУДРОСТЬ ДНЯ</p>
+                  <h2>{this.state.quote}</h2>
+                  <h3>{this.state.author}</h3>
+                </div>
               </div>
-              <div>
-                 <h2>{this.state.quote}</h2>
-                 <h3>{this.state.author}</h3>
-              </div>
+              
             </div>
         );
       }

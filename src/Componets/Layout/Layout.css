@@ -1,8 +1,9 @@
-/* .active-link{
-    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)
-}
-  
-nav a {
+.active-link{
+    background-image: linear-gradient(to right, #387069 0%, #628f91  51%, #77A1D3  100%);
+    border-radius: 50px;
+} 
+
+/* nav a {
     width: 130px;
     height: 40px;
     color: #fff;
@@ -21,7 +22,7 @@ nav a {
     outline: none;
     text-decoration: none;
     background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)
-  }
+  } */
 
   
    nav a:hover {
@@ -33,7 +34,7 @@ nav a {
 
    
    
-   .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+   /* .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
    .btn-grad {
       margin: 10px;
       padding: 15px 45px;
@@ -45,14 +46,13 @@ nav a {
       box-shadow: 0 0 20px #eee;
       border-radius: 10px;
       display: block;
-    }
+    } */
 
-    .btn-grad:hover {
-      background-position: right center; /* change the direction of the change here */
-      /* color: #fff;
-      text-decoration: none; */
-    /* } */
-  
+    /* .btn-grad:hover {
+      background-position: right center;
+   color: #fff;
+      text-decoration: none;
+   }  */
 
 header{
   display: flex;
@@ -62,7 +62,7 @@ header{
 
 nav a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: bolder;
   font-size: 1.3em;
   line-height: 16px;
   letter-spacing: 0.1em;

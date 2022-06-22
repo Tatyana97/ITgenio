@@ -2,15 +2,22 @@
     -webkit-animation: blink1 3s linear infinite;
     animation: blink1 3s cubic-bezier(1, 0.26, 1, 1) infinite;
     font-weight: bolder;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    background: #2b3833;
+    padding: 3px;
+    max-width: 9em;
+    margin: 0 auto;
 }
 
   @-webkit-keyframes blink1 {
-    0% { color: rgb(194, 155, 155); }
-    50% { color: rgba(216, 131, 131, 0.979); }
-    100% { color: rgb(218, 22, 22); }
+    0% { color: rgb(148, 199, 174); }
+    50% { color:  rgb(148, 199, 174); }
+    100% { color: rgb(94, 141, 112); }
   }
   @keyframes blink1 {
-    0% { color: rgb(194, 155, 155); }
-    50% { color: rgba(216, 131, 131, 0.979); }
-    100% { color: rgb(218, 22, 22); }
+    0% { color: rgb(148, 199, 174); }
+    50% { color: rgb(148, 199, 174); }
+    100% { color:rgb(94, 141, 112); }
   }
