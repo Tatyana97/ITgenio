@@ -12,28 +12,54 @@
     position: absolute;
     bottom: 0;
 }
+
 .blockquote-5 h3 {
-    color: #b3d0e9;
+    color: #b5ddc8;
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 6px;
     display: block;
     font-weight: bolder;
+    text-align: center;
 }
 .blockquote-5 h2 {
-    color: #e5fff4;
+    color: #dcffed;
+    font-size: 1.3em;   
+    text-align: center;
 }
 .itigenik{
-    background: url('../styles//itgenik-02.png');
+    background: url('../styles//itgenik.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 7em;
-    height: 7em;
+    width: 10em;
+    height: 8em;
+}
+p.itigenik_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-@media (max-width: 770px) { 
-    .blockquote-5 {
-        position: relative; 
-        margin-top: 2em;
+.itigenikQuote_quote {
+    display: flex;
+    align-items: flex-end;
+    background: #387069;
+    height: 4em;
+    border-radius: 10px;
+}
+
+.itigenikQuote {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 723px) { 
+    nav {
+        text-align: center;
+    }
+    
+    nav a {
+        padding: 0em 1em;
     }
 }
 
