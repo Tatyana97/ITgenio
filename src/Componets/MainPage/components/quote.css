@@ -9,8 +9,6 @@
     border-top: 2px solid #648099;
     border-bottom: 2px solid #648099;
     display: flex;
-    position: absolute;
-    bottom: 0;
 }
 
 .blockquote-5 h3 {
@@ -51,6 +49,8 @@ p.itigenik_title {
     display: flex;
     align-content: center;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 @media (max-width: 723px) { 
