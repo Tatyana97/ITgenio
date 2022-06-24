@@ -88,9 +88,9 @@ export class MainPage extends React.Component {
 					/>
 				  </div>
 				</div>
-				<Quote/>
 			  </div>
 			</div>
+			<Quote/>
 		  </div>
 		);
 	  }

@@ -2,28 +2,6 @@
     background-image: linear-gradient(to right, #387069 0%, #628f91  51%, #77A1D3  100%);
     border-radius: 50px;
 } 
-
-/* nav a {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    text-decoration: none;
-    background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)
-  } */
-
   
    nav a:hover {
      background-position: right center;
@@ -31,29 +9,6 @@
      text-decoration: none;
    }
   
-
-   
-   
-   /* .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
-   .btn-grad {
-      margin: 10px;
-      padding: 15px 45px;
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: white;            
-      box-shadow: 0 0 20px #eee;
-      border-radius: 10px;
-      display: block;
-    } */
-
-    /* .btn-grad:hover {
-      background-position: right center;
-   color: #fff;
-      text-decoration: none;
-   }  */
-
 header{
   display: flex;
   justify-content: center;

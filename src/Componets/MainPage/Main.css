@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Sansita+Swashed:wght@600;795;900&display=swap');
 
+.main {
+    min-height: 62vh;
+}
 .row {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .cow-sm-7 h1{
@@ -11,7 +14,7 @@
     font-size: 1.5em;
     line-height: 23px;
     letter-spacing: 0.1em;
-    padding: 3.5em 0 1em;
+    padding: 3.2em 0 1em;
 }
 
 .cow-sm-7 h2{
