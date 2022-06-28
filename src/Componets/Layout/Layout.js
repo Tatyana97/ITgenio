@@ -10,9 +10,9 @@ export const Layout = () => {
         <>
         <header>
             <nav>
-				<NavLink to="/" className={setActive}>HOME</NavLink>
-				<NavLink to="/conversion" className={setActive}>СONVERSION </NavLink>
-                <NavLink to="/compare" className={setActive}>СOMPARE</NavLink>
+				<NavLink to="/" className={setActive}>ГЛАВНАЯ</NavLink>
+				<NavLink to="/conversion" className={setActive}>ТАБЛИЦА </NavLink>
+                <NavLink to="/compare" className={setActive}>СРАВНЕНИЕ</NavLink>
 			</nav>
         </header>   
 

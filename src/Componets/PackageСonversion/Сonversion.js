@@ -69,7 +69,7 @@ export class Сonversion extends React.Component {
                             <p>{this.format.gf}</p>
                         </div>
                         <div className='tableStyle'>
-                              <input value={this.state.firstNumberIgf120} onChange={this.handleInputChange} />
+                              <input type='number' value={this.state.firstNumberIgf120} onChange={this.handleInputChange} />
                               <p>{Math.round((this.state.firstNumberIgf120 * 1.5)* 100)/ 100}</p>
                               <p>{Math.round((this.state.firstNumberIgf120 / 1.3)* 100)/ 100}</p>
                               <p>{Math.round(((this.state.firstNumberIgf120 * 1.5) * 2)* 100)/ 100}</p>
@@ -84,7 +84,7 @@ export class Сonversion extends React.Component {
                             <p>{this.format.gf}</p>
                         </div>
                         <div className='tableStyle'>
-                              <input value={this.state.firstNumberIgf60} onChange={this.handleInputChange1} />
+                              <input type='number' value={this.state.firstNumberIgf60} onChange={this.handleInputChange1} />
                               <p>{Math.round((this.state.firstNumberIgf60 / 1.5)* 100)/ 100}</p>
                               <p>{Math.round((this.state.firstNumberIgf60 / 2)* 100)/ 100}</p>
                               <p>{Math.round((this.state.firstNumberIgf60 * 2)* 100)/ 100}</p>
@@ -99,7 +99,7 @@ export class Сonversion extends React.Component {
                             <p>{this.format.gf}</p>
                         </div>
                         <div className='tableStyle'>
-                              <input value={this.state.firstNumberIF} onChange={this.handleInputChange2} />
+                              <input type='number' value={this.state.firstNumberIF} onChange={this.handleInputChange2} />
                               <p>{Math.round((this.state.firstNumberIF * 1.3)* 100)/ 100}</p>
                               <p>{Math.round((this.state.firstNumberIF * 2)* 100)/ 100}</p>
                               <p>{Math.round(((this.state.firstNumberIF * 2) * 2)* 100)/ 100}</p>
@@ -114,7 +114,7 @@ export class Сonversion extends React.Component {
                             <p>{this.format.if}</p>
                         </div>
                         <div className='tableStyle'>
-                              <input value={this.state.firstNumberGF} onChange={this.handleInputChange3} />
+                              <input type='number' value={this.state.firstNumberGF} onChange={this.handleInputChange3} />
                               <p>{Math.round((this.state.firstNumberGF / 2)* 100)/ 100}</p>
                               <p>{Math.round(((this.state.firstNumberGF / 2) / 1.5)* 100)/ 100}</p>
                               <p>{Math.round(((this.state.firstNumberGF / 2) / 2)* 100)/ 100}</p>

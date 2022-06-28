@@ -41,7 +41,6 @@ export class FormCompare extends React.Component {
 
 			componentDidMount() {
 				if (this.state.oneCity != null) {
-					console.log('fdfdf');
 					setInterval(() => this.tick(), 1000)
 				}
 			  }
@@ -60,7 +59,6 @@ export class FormCompare extends React.Component {
 				
 		
 				let time = await getTimeCity(city);
-					//typeof(time.split(':')[0]) === 'number'
 					if (time) {
 						this.setState({
 						  secondCity: time,
@@ -77,24 +75,30 @@ export class FormCompare extends React.Component {
 	  
 
     
-
+				
             render (){
+				console.log(this.state.oneCity)
+				console.log(this.state.secondCity)
                 return (
                     <div className='compareCity'>
                       <div className='form'>
-                               {/* {this.state.error? <Error err ={this.state.error}/>: null} */}
-
-								
+							
 							   <div className='form_city'>
                                 	<FormCyty1 cityMethod={this.getCity} />
-									<p>{this.state.oneCity}</p>
+									{this.state.oneCity != "aN:aN" ?
+									<p>{this.state.oneCity}</p>:
+									<p>Не найден город</p>
+								}
 								</div>
 								<div className='form_city'>
 									<FormCyty2 getCitySecond={this.getCitySecond} />
-                               	<p>{this.state.secondCity}</p> 
+									{this.state.secondCity != "aN:aN" ?
+									<p>{this.state.secondCity}</p>:
+									<p>Не найден город</p>
+								}
 								</div>
                         </div>
-						{this.state.oneCity && this.state.secondCity ? 
+						{this.state.oneCity != "aN:aN" && this.state.oneCity != null && this.state.secondCity != "aN:aN" && this.state.secondCity != null? 
 							<TableCity
 							city1={this.state.oneCity}
 							city2={this.state.secondCity}

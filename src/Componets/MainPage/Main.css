@@ -75,3 +75,18 @@ form.formTown {
 .infoWeath {
     font-weight: bold;
 }
+
+
+@media (max-width: 750px) { 
+
+}
+
+@media (max-width: 520px) { 
+    .formTown input[type="text"] {
+        width: 11em;
+    }
+    .bott {
+        font-size: 13px;
+            height: 3.88em;
+    }
+}

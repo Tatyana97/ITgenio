@@ -12,7 +12,7 @@
 }
 
 .blockquote-5 h3 {
-    color: #b5ddc8;
+    color: #97c1ab;
     font-size: 15px;
     padding-top: 6px;
     display: block;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 .blockquote-5 h2 {
-    color: #dcffed;
+    color: #ddfbec;
     font-size: 1.3em;   
     text-align: center;
 }
@@ -52,7 +52,7 @@ p.itigenik_title {
     margin-top: 1em;
 }
 
-@media (max-width: 723px) { 
+@media (max-width: 750px) { 
     nav {
         text-align: center;
     }
@@ -61,4 +61,15 @@ p.itigenik_title {
         padding: 0em 1em;
     }
 }
+
+@media (max-width: 520px) { 
+    nav {
+        font-size: 11px;
+        text-align: center;
+    }
+    nav a {
+        padding: 0em 1em;
+    }
+}
+
 
