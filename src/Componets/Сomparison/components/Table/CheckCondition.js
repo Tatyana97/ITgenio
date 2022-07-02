@@ -77,5 +77,29 @@
 		 else if (number == "0-15"){
 			number = "09";
 		 }
+		 else if (number == "0-16"){
+			number = "08";
+		 }
+		 else if (number == "0-17"){
+			number = "07";
+		 }
+		 else if (number == "0-18"){
+			number = "06";
+		 }
+		 else if (number == "0-19"){
+			number = "05";
+		 }
+		 else if (number == "0-20"){
+			number = "04";
+		 }
+		 else if (number == "0-21"){
+			number = "03";
+		 }
+		 else if (number == "0-22"){
+			number = "02";
+		 }
+		 else if (number == "0-23"){
+			number = "01";
+		 }
 		 return number
 	};

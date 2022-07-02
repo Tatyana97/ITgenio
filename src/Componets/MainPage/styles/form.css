@@ -10,8 +10,8 @@
     background: linear-gradient(to bottom, #387069, #628f91) repeat scroll 0 0 / 100% 200% rgba(0, 0, 0, 0);
     transition: all 0.5s linear 0s;
     color: white;
-    height: 2.9em;
-    padding: 0em 1em;
+    height: 100%;
+    padding: 0em 2em;
     position: relative;
     border-radius: 0 15px 15px 0;
     border: none;
